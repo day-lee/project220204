@@ -13,7 +13,7 @@ class WorkoutClass(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(self.venue) + ' | ' + str(self.type)
+        return str(self.venue) + ' | ' + str(self.workout_type)
 
 
 class Member(models.Model):

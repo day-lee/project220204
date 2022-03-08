@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import WorkoutClass, Member, MemberCredit, Booking
 
-# Register your models here.
+admin.site.register(WorkoutClass)
+admin.site.register(Member)
+admin.site.register(MemberCredit)
+admin.site.register(Booking)
